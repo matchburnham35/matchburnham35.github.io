@@ -1,0 +1,36 @@
+html, body {
+  Margin: 0 ;  
+  Padding: 0 ;  
+    }
+
+#wrap {
+  width: 70%;  
+  margin: 0 auto;  
+}
+
+header, nav, section, footer {
+  background-color: #ddd;  
+  margin: 20px;
+}
+
+header {
+    position: relative;   
+}
+
+.redbox {
+    width: 200px;
+    height:200px;
+    background-color: red;
+    position: relative; 
+    top: 20px;
+    left: 20px;   
+}
+    
+.bluebox {
+   width: 200px;
+   height: 200px;
+   background-color: blue;  
+}
+
+
+.billy {clear:left;}
