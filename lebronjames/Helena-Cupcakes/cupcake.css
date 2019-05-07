@@ -1,0 +1,140 @@
+body{
+    background-color: #CCCCCC;
+    font-family:Verdana, Geneva, sans-serif;
+    margin:0;
+    padding:0;
+
+}
+
+h1{
+    font-size: 34px;
+}
+#wrap {
+  width: 75%;
+  margin: 0 auto
+}
+
+header img{
+    width:100%;
+}
+
+header {
+}
+
+nav{
+    background-color: #0EC8C7;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px
+}
+
+nav li{
+    display: inline;
+    /*padding: 20px;*/
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+nav a:hover {
+    color: #0EC8C7;
+    background-color: white;
+    
+}
+
+section{
+   
+    background-color: #EC3632;
+    overflow: auto;
+}
+
+aside {
+    width: 15%;
+    float: left;
+    background-color: #EC3632;
+}
+
+aside li {
+    list-style-type: none;
+    margin: 15px;
+}
+
+
+aside li a {
+    color: white;
+    text-decoration: none;
+}
+article {
+    width: 75%;
+     padding: 20px;
+    float: right;
+    background-color: white;
+}
+
+.buy {
+    float: right;
+    margin: 10px;
+}
+
+.button{
+    background-color:rebeccapurple;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+a.button:hover{
+    background-color: darkgoldenrod;
+}
+
+footer{
+    background-color: #0EC8C7;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+    list-style-type: none;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1100px) {
+  #wrap {
+      width: 95%;
+  }
+    
+}
+
+
+@media only screen and (max-width: 750px) {
+  #wrap {
+      width: 95%;
+  }
+    aside, article {
+        width: 100%;
+        float: none;
+    }
+    nav li {
+        display: block;
+        margin: 10px 0;
+        
+    }
+    nav {
+        text-align: left;
+    }
+    .buy {width: 90%;
+    float: none;
+    }
+}
